@@ -37,7 +37,6 @@ public class Iframe {
 			String tabText = tab.getText();
 			System.out.println(tabText);
 			Thread.sleep(2000);
-			//Test commit
 			
 
 		}
