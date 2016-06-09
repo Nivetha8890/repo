@@ -29,13 +29,9 @@ public class DragAndDrop {
 		action.moveToElement(element).build().perform();
 		driver.findElement(By.linkText("Accessories")).click();
 		driver.quit();
-
 	}
 
-	public static void implicitWait(int num)
-
-	{
-
+	public static void implicitWait(int num) {
 		driver.manage().timeouts().implicitlyWait(num, TimeUnit.SECONDS);
 	}
 }

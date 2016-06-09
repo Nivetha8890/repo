@@ -1,7 +1,6 @@
 package selenium;
 
 import java.util.concurrent.TimeUnit;
-
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,7 +8,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Assertion {
-
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -23,5 +21,4 @@ public class Assertion {
 		System.out.println("assertion true is executed");
 		driver.quit();
 	}
-
 }
